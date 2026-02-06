@@ -71,8 +71,3 @@ Encrypt PIN code
 
 Better input validation
 
-لو تحب أعمله كمان أجمل بكتير وفيه:
-✅ Badges
-✅ Screenshots
-✅ جدول Features
-قولّي بس 😄
