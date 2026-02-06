@@ -1,60 +1,78 @@
-🏧 C++ ATM System (Console Application)
-A simple ATM simulator built using C++ that allows users to log in and perform basic banking operations such as:
-✅ Quick Withdraw
-✅ Normal Withdraw
-✅ Deposit
-✅ Check Balance
-✅ Logout / Exit
-✅ Data saved permanently using a text file (File Handling)
-📌 Features
-🔐 Authentication
-Users can log in using:
-Account Number
-PIN Code
-💰 Transactions
-Quick Withdraw (preset amounts)
-Normal Withdraw (must be multiple of 5)
-Deposit (positive amounts only)
-Check Balance
-💾 Persistent Storage
-All client data is stored in a text file:
+🏧 C++ ATM System
+
+A simple C++ console-based ATM system that supports login and basic banking operations with file-based data storage.
+
+✨ Features
+
+🔐 Login using Account Number + PIN Code
+
+💰 Quick Withdraw (preset amounts)
+
+🧾 Normal Withdraw (must be multiple of 5)
+
+➕ Deposit
+
+📊 Check Balance
+
+🚪 Logout / Exit
+
+💾 Client data is saved permanently in a text file
+
+📂 Data Storage
+
+Client data is stored in:
+
 Clyents_Data.txt
-Format:
-نسخ التعليمات البرمجية
 
+File Format
 AccountNumber||PinCode||FirstName||LastName||Balance
-Example:
-نسخ التعليمات البرمجية
 
+Example
 1001||1234||Mohamed||Sakr||5000
-🛠️ Technologies Used
-C++
-File Handling (fstream)
-Windows Console
-iomanip for formatting
-windows.h for Sleep()
-▶️ How to Run
-Open the project in Visual Studio (Recommended)
-Make sure the file path is correct:
-نسخ التعليمات البرمجية
-Cpp
-D:\\my_programe\\C++lang\\Bank\\Clyents_Data.txt
-Run the program.
-Enter valid Account Number and PIN Code from the file.
-📂 Project Structure
-نسخ التعليمات البرمجية
 
-ATM-System/
-│── main.cpp
-│── Clyents_Data.txt
-⚠️ Notes
-This is a console-based project made for learning purposes.
-The program uses Windows-only functions (Sleep, system("cls")).
-✨ Future Improvements
-Add Admin Mode
-Add Register New Client option
-Encrypt PIN Code
-Improve file security and validation
+🛠️ Built With
+
+C++
+
+File Handling (fstream)
+
+Windows Console
+
+▶️ How To Run
+
+Open the project in Visual Studio
+
+Make sure the data file path is correct inside the code:
+
+D:\\my_programe\\C++lang\\Bank\\Clyents_Data.txt
+
+
+Run the program
+
+Enter a valid account number and PIN from the file
+
+📌 Notes
+
+This project is for learning and practicing C++.
+
+Uses Windows functions like Sleep() and system("cls").
+
 👨‍💻 Author
+
 Mohamed Sakr
-Computer Engineering Student | AI & Problem-Solving
+
+🔮 Future Improvements
+
+Admin mode
+
+Register new client
+
+Encrypt PIN code
+
+Better input validation
+
+لو تحب أعمله كمان أجمل بكتير وفيه:
+✅ Badges
+✅ Screenshots
+✅ جدول Features
+قولّي بس 😄
